@@ -1,0 +1,170 @@
+* {
+    text-align: center;
+    background-image: url("../Images/dark_wood_@2X.png");
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:block;
+    width: 100%;
+}
+
+
+
+/* Beginning of header styles for website , same style should be applied to each page to create a  united theme*/
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    width:100%;
+    background-image: url(../Images/pink\ dust.png);
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 50px;
+    margin: 0px;
+    content: "";
+    clear:both;
+}
+
+#logo {
+    float: left;
+    height: 100%;
+    color: rgb(88, 57, 52);
+    font-size: 25px;
+    position: relative;
+    bottom: 45px;
+    right: 20px;
+    padding: 30px 0px 30px 0px;
+    background-image:url("../Images/retina_wood_@2X.png")
+}
+
+#nav-bar {
+ border: none;
+
+    
+
+}
+
+.nav-links {
+    float: right;
+    font-size: 20px;
+    color: rgb(88, 57, 52);
+    position: relative;
+    right: 45px;
+    bottom: 40px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+/* Effects for navbar Links */
+
+a:link, a:visited {
+    background-image: url(../Images/retina_wood_@2X.png);
+    color: rgb(88, 57, 52);
+    text-align: center; 
+    text-decoration: none;
+    margin: 0px;
+    font-size: 25px;
+}
+
+a:hover, a:active {
+    background-image:url(../Images/swirl_pattern.png);
+    color: black;
+}
+#footer-p {
+    border: groove thin teal;
+    border-width: 10px 0px 10px 0px;
+    background-image: url(/Assets/Images/pink\ dust.png);
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+    
+}
+
+footer {
+    padding: 0px 0px 175px 0px;
+    background-image: url("../Images/pink\ dust.png");
+    color: rgb(98, 190, 98);
+}
+
+label {
+    float: left;
+    margin: 5px;
+    background-image: url(/Assets/Images/pink\ dust.png);
+    font-size: 25px;
+    text-align: left;
+    color: rgb(13, 194, 13);
+
+}
+#message-box {
+    text-align: left;
+    overflow:auto;
+    word-wrap: break-word;
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    font-size: 25px;
+    color: white;
+    box-sizing: border-box;
+    border: 4px groove red;
+    border-radius: 6px;
+    resize: none;
+}
+h1 {
+    text-align: center;
+    color:rgb(13, 194, 13);
+    background-image: url(/Assets/Images/pink\ dust.png);
+    border: thin solid rgb(13, 194, 13);
+    border-width: 0px 0px 4px 0px;
+    margin: 10px 40px 10px 40px;
+}
+
+form {
+    width: 75%;
+    margin: 0px 0px 0px 75px;
+
+}
+
+button:hover, button:active {
+    background-image:url(../Images/swirl_pattern.png);
+    color: black;
+}
+
+button {
+    color:rgb(189, 27, 108);  
+    width:50%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-image: url(../Images/rick1.jpg);
+   
+}
+section {
+    padding: 250px;
+    width: 100%;
+}
+fieldset {
+    background-image: url(../Images/pink\ dust.png);
+    margin: 20px 15px 15px 35px;
+    border-radius: 12px;
+
+}
+
+.F-elements {
+    float:left;
+    font-size: 25px;
+    background-color: white;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px groove red;
+    border-radius: 6px;
+}
