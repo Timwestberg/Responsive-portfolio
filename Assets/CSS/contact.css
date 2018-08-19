@@ -168,3 +168,92 @@ fieldset {
     border: 2px groove red;
     border-radius: 6px;
 }
+
+
+@media only screen and (max-width: 980px) {
+    * {
+         background-image:none;
+         background-color:orange;
+     }
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     * {
+         background-image:none;
+         background-color:yellow;
+     }
+     #logo {
+         background-image: none;
+         color:black;
+         background-color: yellow;
+         list-style: none;
+     }
+     .nav-links {
+         float: left;
+         left: 25px;
+         top: -20px;
+         padding: 0px;
+         margin: 3px;
+         font-size: 5px;
+     }
+     a:link, a:visited {
+         background-image: none;
+         background-color: yellowgreen;
+         color: blue;
+     }
+ }
+
+
+@media only screen and (max-width: 640px) {
+    * {
+        background-image:none;
+        background-color:white;
+    }
+
+    header {
+        background-image: none;
+        background-color: teal;
+    }
+
+    #logo {
+        background-image: none;
+        color:white;
+        background-color: teal;
+        text-decoration: none;
+        list-style: none;
+    
+
+    }
+    fieldset {
+        position: relative;
+        top: 
+    }
+    form {
+        position: relative;
+        top: 50px;
+        padding: 0px;
+        margin: 0px 0px 60px 0px;
+    }
+
+    .nav-links {
+        float: left;
+        position: relative;
+        top: 52px;
+        left: -210px;
+        padding: 0px;
+        margin: 3px;
+        font-size: 5px;
+    }
+
+    #content2 {
+
+        position: relative;
+        right: 20px;
+    }
+
+    a:link, a:visited {
+        background-image: none;
+        background-color: lightgreen;
+        color: black;
+    }
+}

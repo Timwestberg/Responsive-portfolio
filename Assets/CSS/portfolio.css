@@ -86,7 +86,6 @@ a:hover, a:active {
     color:red;
 }
 #footer-p {
-    position: relative;
     font-size: 25px;
     
 }
@@ -109,10 +108,9 @@ footer {
     padding: 25px;
     height: 500px;
     position: relative;
-    
-    
-    
 }
+
+
 /* Having Trouble here is cant get links to operate correctly now */
 .c-links {
     margin: 10px;
@@ -180,4 +178,77 @@ h1 {
     border: thin solid rgb(48, 225, 39);
     border-radius: 8px;
     background-image: url(../Images/pink\ dust.png);
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        background-color:
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: 
+    }
+}
+
+* {
+    background-image:none;
+    background-color:white;
+}
+
+header {
+    background-image: none;
+    background-color: teal;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+img {
+    float: left;
+    width: 33.33%;
+    margin: 0px;
+}
+
+#footer-p {
+    position: none;
+}
+
+#logo {
+    background-image: none;
+    color:white;
+    background-color: teal;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+main {
+    position: relative;
+    top: 40px;
+    left: 0px;
+    margin: 0px;
+
+}
+
+
+.nav-links {
+    float: left;
+    position: relative;
+    top: 50px;
+    right: 183px;
+    padding: 0px;
+    margin: 3px;
+    font-size: 5px;
+}
+
+
+a:link, a:visited {
+    background-image: none;
+    background-color: lightgreen;
+    color: black;
 }
